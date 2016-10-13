@@ -16,7 +16,6 @@ b1=Button(root,text="Button1",command=cb1)
 b2=Button(root,text="Button2")
 b2.bind("<Return>",cb2)
 b3=Button(root,text="Button3",command=cb3)
-
 b1.pack()
 b2.pack()
 b3.pack()
